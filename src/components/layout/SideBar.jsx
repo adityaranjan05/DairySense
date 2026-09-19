@@ -13,6 +13,7 @@ export default function SideBar() {
     return (
         <>
             <div className="flex flex-col h-screen justify-between">
+                {/* Heading */}
                 <div className="p-6 border-b border-slate-100 flex items-center justify-between">
                     <div className="flex items-center gap-3">
                         <div className="w-11 h-11 rounded-2xl bg-gradient-to-br from-emerald-600 to-green-800 flex items-center justify-center text-white shadow-md">
@@ -31,6 +32,8 @@ export default function SideBar() {
                         </div>
                     </div>
                 </div>
+
+                {/* menu */}
                 <nav className="flex-1 p-4 space-y-1.5 overflow-y-auto">
                     <div className="text-[11px] font-bold uppercase tracking-wider text-slate-400 px-3 mb-2">
                         Main Menu
@@ -42,7 +45,6 @@ export default function SideBar() {
                         <NavLink
                             key={link.to}
                             to={link.to}
-                            // onClick={onClose}
                             className={({ isActive }) =>
                             `flex items-center gap-3.5 px-4 py-3 rounded-2xl text-sm font-semibold transition-all ${
                                 isActive
@@ -72,6 +74,7 @@ export default function SideBar() {
                         <div>
                             <p className="text-[13px] font-medium">Kisan Cattle Helpline</p>
                             <p className="text-[13px] font-semibold">0000-000-0000</p>
+                            <p className="text-[13px]">Toll-free Support</p>
                         </div>
                     </div>
                 </div>

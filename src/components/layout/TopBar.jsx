@@ -14,7 +14,7 @@ export default function TopBar() {
             <div className="flex items-center justify-between gap-4">
                 <div className="flex items-center gap-3">
                     <h2 className="text-base font-bold text-slate-900 tracking-tight leading-tight">
-                        Good Morning, Aditya
+                        Good Morning, Adiiiii!
                     </h2>
                 </div>
                 <div className="flex items-center gap-3">
