@@ -71,7 +71,7 @@ export default function SideBar() {
                         </div>
                         <div>
                             <p className="text-[13px] font-medium">Kisan Cattle Helpline</p>
-                            <p className="text-[13px] font-semibold">1800-180-1551</p>
+                            <p className="text-[13px] font-semibold">0000-000-0000</p>
                         </div>
                     </div>
                 </div>
