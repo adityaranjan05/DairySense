@@ -1,7 +1,5 @@
 // import { useState } from 'react'
 import { Routes, Route} from "react-router-dom";
-import SideBar from './components/layout/SideBar'
-import TopBar from './components/layout/TopBar'
 import AppLayout from "./components/layout/AppLayout";
 
 function Home() { return <h2>Home Page</h2>; }
