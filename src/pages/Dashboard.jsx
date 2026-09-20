@@ -132,7 +132,7 @@ export default function Dashboard() {
                         className="bg-emerald-100/10 rounded-3xl p-6 border border-emerald-200 shadow-sm
                                 flex flex-col justify-between h-full w-full text-left
                                 hover:shadow-sm hover:shadow-emerald-500 hover:border-emerald-500
-                                transition-all duration-150 cursor-pointer"
+                                transition-all duration-150 cursor-pointer group"
                     >
                         <div>
                             <div className="flex items-center justify-between">
@@ -140,7 +140,7 @@ export default function Dashboard() {
                                     FEED TEST
                                 </span>
 
-                                <div className="p-2 rounded-xl bg-emerald-50 text-emerald-700">
+                                <div className="p-2 rounded-xl bg-emerald-100 text-emerald-700 transition-all duration-150 group-hover:scale-120">
                                     <Microscope className="w-5 h-5" />
                                 </div>
                             </div>
@@ -166,7 +166,7 @@ export default function Dashboard() {
                         className="bg-amber-100/10 rounded-3xl p-6 border border-amber-200 shadow-sm
                                 flex flex-col justify-between h-full w-full text-left
                                 hover:shadow-sm hover:shadow-amber-500 hover:border-amber-500
-                                transition-all duration-150 cursor-pointer"
+                                transition-all duration-150 cursor-pointer group"
                     >
                         <div>
                             <div className="flex items-center justify-between">
@@ -174,7 +174,7 @@ export default function Dashboard() {
                                     SILAGE TEST
                                 </span>
 
-                                <div className="p-2 rounded-xl bg-amber-50 text-amber-700">
+                                <div className="p-2 rounded-xl bg-amber-100 text-amber-700 transition-all duration-150  group-hover:scale-120">
                                     <Activity className="w-5 h-5" />
                                 </div>
                             </div>
