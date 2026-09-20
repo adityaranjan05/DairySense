@@ -128,7 +128,7 @@ export default function Dashboard() {
 
                     <button
                         type="button"
-                        onClick={() => navigate("/test")}
+                        onClick={() => navigate("/test/upload?type=feed")}
                         className="bg-emerald-100/10 rounded-3xl p-6 border border-emerald-200 shadow-sm
                                 flex flex-col justify-between h-full w-full text-left
                                 hover:shadow-sm hover:shadow-emerald-500 hover:border-emerald-500
@@ -162,7 +162,7 @@ export default function Dashboard() {
 
                     <button
                         type="button"
-                        onClick={() => navigate("/test")}
+                        onClick={() => navigate("/test/upload?type=silage")}
                         className="bg-amber-100/10 rounded-3xl p-6 border border-amber-200 shadow-sm
                                 flex flex-col justify-between h-full w-full text-left
                                 hover:shadow-sm hover:shadow-amber-500 hover:border-amber-500
