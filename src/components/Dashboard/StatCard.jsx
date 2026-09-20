@@ -17,7 +17,7 @@ export default function StatCard ({ icon: Icon, value, label, color, unit }) {
         },
     };
     return (
-        <div className={`rounded-2xl border-l-4 ${colors[color].border} bg-white p-5 shadow-sm`}>
+        <div className={`rounded-2xl border-l-4 ${colors[color].border} bg-white p-5 transition-all duration-150 shadow-md hover:shadow-lg z-10`}>
             <div className="flex flex-col gap-4">
                 <div className="flex items-center justify-between">
                     <span className="font-semibold">{label} Count</span>
